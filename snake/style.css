@@ -1,0 +1,53 @@
+@font-face {
+  font-family:Google Sans;
+  src:url('fonts/GoogleSans-Regular.ttf') format('truetype');
+  font-weight:400;
+}
+@font-face {
+  font-family:Google Sans;
+  src:url('fonts/GoogleSans-Bold.ttf') format('truetype');
+  font-weight:700;
+}
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body {
+    background:#123;
+    font:400 14.5px Google Sans;
+    color:#fff;
+}
+canvas {
+    border:1px solid #fff;
+    background:rgba(0,0,0,.4);
+    display:block;
+    margin:50px auto 0;
+}
+h1 {
+  font-size:30px;
+}
+.container {
+  margin:30px auto;
+  max-width:800px;
+  width:100%;
+}
+.nilai {
+  clear:both;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  overflow:hidden;
+  text-transform:uppercase;
+  font-weight:700;
+  text-align:center;
+}
+.score, .high {
+  font-size:17px;
+  display:block;
+}
+#score, #high {
+  color:#fff000;
+  font-size:30px;
+  display:block;
+}
